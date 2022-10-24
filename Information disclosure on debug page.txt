@@ -1,0 +1,9 @@
+lab link : https://portswigger.net/web-security/information-disclosure/exploiting/lab-infoleak-on-debug-page
+
+The debug messages someties can contein a sensitive data 
+
+steps :
+1-Verify the page sources 
+3-in the home page source you will find a link of a debug page
+4-send the debug page request to burp repeater
+5-You will find the secret-key on the debug page response

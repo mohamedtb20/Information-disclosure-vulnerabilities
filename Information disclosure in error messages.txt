@@ -1,0 +1,9 @@
+lab link : https://portswigger.net/web-security/information-disclosure/exploiting/lab-infoleak-in-error-messages
+
+in disclosure information vulnirability you can find a sensitive data in the eurror message
+in this lab we will do an eurror and see a verbose message contain the third-party framework version
+
+steps :
+1-On burp suite history take the get request response for the product detail
+2-try to make an eurror by making a string on the product id
+3-You can see that the eurror show a verbose message contain the third-party framework version
