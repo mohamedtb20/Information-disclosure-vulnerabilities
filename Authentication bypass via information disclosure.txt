@@ -1,0 +1,12 @@
+Lab link : https://portswigger.net/web-security/information-disclosure/exploiting/lab-infoleak-authentication-by
+
+you can get a sensitive data from the request ,when the http trace method is enabled on a website you can get the request content back as a client
+
+In this lab to access to /admin url you should be one of the local network 
+means your ip address should match 
+the trace methode is enabled on this website you can get an http heaser from the request which allow you to change your address ip when sending the request to local ipaddresss
+
+steps :
+1-login wiener peter
+2-try to access to /admin url and send the get request to reapeter
+3-apply the trace methode you will  get the request back  with a header you will need to bypass authentication

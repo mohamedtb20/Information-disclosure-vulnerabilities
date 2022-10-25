@@ -1,0 +1,9 @@
+lab link : https://portswigger.net/web-security/information-disclosure/exploiting/lab-infoleak-via-backup-files
+
+In this lab we must find the path or the link of the backup files to get access and see the content
+The robot.txt usually contain links and path of internal and external files on the website which the crawler can access
+
+steps :
+1-Go to the robot.txt file by adding /robot.txt at the end of the home website url
+2-you find the /backup file
+3-try to find the database password on the file 
